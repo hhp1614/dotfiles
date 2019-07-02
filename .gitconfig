@@ -1,0 +1,20 @@
+[alias]
+	lo  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	st  = status -sb
+	co  = checkout                      # 切换分支
+	cob = checkout -b                   # 创建并切换分支
+	ca  = !git add -A && git commit -av # 提交所有修改
+	f   = fetch -p                      # 从存储库中获取并删除远程跟踪引用，这些引用不再存在于远程上
+	ps  = push                          # 提交修改到远程仓库
+	psm = push origin master            # 提交修改到远程仓库主分支
+	ba  = branch -a                     # 列出远程跟踪分支和本地分支
+	bd  = branch -d                     # 只有当分支被合并时才删除它
+	bD  = branch -D                     # 强制删除分支
+	dc  = diff --cached                 # 显示阶段更改
+	st  = status -sb
+	a   = add -A
+	pl  = pull
+	plm = pull origin master
+[user]
+	name = hhp1614
+	email = hhp1614@gmail.com
