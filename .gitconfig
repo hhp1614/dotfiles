@@ -1,6 +1,6 @@
 [alias]
-	lo  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	st  = status -sb
+	l   = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	s   = status -sb
 	co  = checkout                      # 切换分支
 	cob = checkout -b                   # 创建并切换分支
 	ca  = !git add -A && git commit -av # 提交所有修改
@@ -11,8 +11,6 @@
 	bd  = branch -d                     # 只有当分支被合并时才删除它
 	bD  = branch -D                     # 强制删除分支
 	dc  = diff --cached                 # 显示阶段更改
-	st  = status -sb
-	a   = add -A
 	pl  = pull
 	plm = pull origin master
 [user]
