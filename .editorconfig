@@ -9,7 +9,7 @@ trim_trailing_whitespace = true
 charset = utf-8
 
 # frontend files
-[*.{js,ts,jsx,tsx,vue,htm,html,css,scss,sass,styl}]
+[*.{js, ts, jsx, tsx, vue, htm, html, css, scss, sass, styl}]
 indent_style = space
 indent_size = 2
 
