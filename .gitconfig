@@ -16,3 +16,7 @@
 [user]
 	name = hhp1614
 	email = hhp1614@gmail.com
+[https]
+        proxy = socks5://127.0.0.1:1080
+[http]
+        proxy = socks5://127.0.0.1:1080
