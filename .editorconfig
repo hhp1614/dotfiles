@@ -1,18 +1,18 @@
 # http://editorconfig.org
 root = true
 
-# all files
 [*]
 charset = utf-8
-end_of_line = lf
-indent_size = 2
-indent_style = space
 insert_final_newline = true
-trim_trailing_whitespace = true
 
-[*.md]
-trim_trailing_whitespace = false
+# frontend files
+[*.{jsx?, tsx?, json, (sc|sa|c)ss}]
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
 
 # go files
 [*.go]
+trim_trailing_whitespace = true
 indent_style = tab
+indent_size = 4
