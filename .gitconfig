@@ -1,16 +1,13 @@
+# git全局配置文件
 [alias]
 	l=log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	s=status -sb
 	a=git add .
 	c=commit -m
+	b=branch
+	o=checkout
 	pl=pull
 	ps=push
-	co=checkout
-	cob=checkout -b
-	b=branch
-	ba=branch -a
-	bd=branch -d
-	bD=branch -D
 	dc=diff --cached
 [user]
 	name = hhp1614
